@@ -1,0 +1,60 @@
+html,body{
+    height: 100vh;
+    margin: 0;
+}
+
+.footer .footer-wrapper{
+    padding: 20px 50px;
+    background: linear-gradient(201deg, #046bc4 26%, #44C6F9 140%);
+}
+.footer .footer-wrapper .footer-content h1{
+    margin-bottom: 20px;
+    color: white;
+    font-family: sans-serif;
+    
+}
+.footer .footer-wrapper .footer-content .footer-fastmenu li{
+    margin-bottom: 15px;
+    max-width: fit-content;
+    position: relative;
+
+
+}
+.footer .footer-wrapper .footer-content .footer-fastmenu li a{
+    color: white;
+    font-family: math;
+}
+.footer .footer-wrapper .footer-content li a{
+    color: white;
+}
+.footer .footer-wrapper .footer-content .footer-fastmenu li a::after{
+    content: "";
+    display: block;
+    position: absolute;
+    margin-top: 2px;
+    right: 0;
+    width: 0%;
+    height: 1px;
+    background-color: white;
+    transition: width 0.5s cubic-bezier(0.35, 0.7, 0.35, 1);
+
+}
+.footer .footer-wrapper .footer-content .footer-fastmenu li a:hover::after{
+    width: 100%;
+    left: 0;
+
+}
+.footer .footer-wrapper .footer-content p{
+    margin-bottom: 16px;
+    color: white;
+    
+}
+
+
+
+.footer .footer-wrapper .footer-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}

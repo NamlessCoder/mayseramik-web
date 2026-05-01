@@ -1,0 +1,46 @@
+.product-container{
+    width: 100%;
+}
+.product-container .wrapper{
+    width: 80%;
+    height: 100%;
+    margin: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+
+}
+.product-container .wrapper .product-exp h1{
+    font-family: sans-serif; 
+    padding: 0 0 30px 0;
+}
+.product-container .wrapper .product-exp p{
+    line-height: 25px;
+    font-family: sans-serif;
+    padding: 0 0 50px 0;
+}
+.product-container .wrapper .product-exp .product-info{
+    width: 60%;
+}
+    
+.product-container .wrapper .product-exp .product-info table{
+    border-collapse: collapse;
+}
+    
+.product-container .wrapper .product-exp .product-info table tr td{
+    width: 100%;
+    border: 1px solid #cccc;
+    padding: 10px;
+    font-family: math;
+}
+.product-container .wrapper .product-exp .product-info a i{
+    padding: 18px;
+}
+.product-container .wrapper .product-photo{
+    width: 80%;
+    height: 100%;
+}
+.product-container .wrapper .product-photo img{
+    height: 100%;
+}
