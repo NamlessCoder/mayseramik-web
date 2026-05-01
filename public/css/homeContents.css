@@ -3,7 +3,7 @@
     background: url("../../public/image/dotted-style-white-color-turkey-map-vector-36541758.avif");
   /* background: url("/public/image/403eda1c-ca72-4d3b-9665-f667e8f2e046.jpg"); */
   background-size: contain;
-  height: 500px;
+  min-height: 500px;
   display: flex;
   align-items: center;
   justify-content: center;
