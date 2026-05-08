@@ -4,7 +4,7 @@
 }
 .products-home .wrapper {
   width: 80%;
-  margin: 180px 150px;
+  margin: 180px auto;
 }
 .products-home .wrapper .products {
   display: flex;

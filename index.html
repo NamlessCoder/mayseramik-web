@@ -10,7 +10,10 @@
     <link rel="stylesheet" href="public/css/homeAbout.css" />
     <link rel="stylesheet" href="public/css/homeContents.css" />
     <link rel="stylesheet" href="public/css/footer.css" />
-    <link rel="stylesheet" href="../public/css/fontFamily.css" />
+    <link rel="stylesheet" href="public/css/fontFamily.css" />
+    <link rel="stylesheet" href="public/css/mobilFooter.css" />
+    <link rel="stylesheet" href="public/css/mobilHome.css" />
+    <link rel="stylesheet" href="public/css/mobilTopbar.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
@@ -41,6 +44,27 @@
               <a href="./pages/communication.html">İLETİŞİM</a>
             </li>
           </ul>
+          <div class="mobil-right">
+            <div class="wrapper" id="mobilTopbarList">
+              <button id="mobilMenu">
+                <i class="fa-solid fa-bars"></i>
+              </button>
+              <ul>
+                <li>
+                  <a href="./index.html">ANASAYFA</a>
+                </li>
+                <li>
+                  <a href="./pages/about.html">HAKKIMIZDA</a>
+                </li>
+                <li>
+                  <a href="./pages/products.html">ÜRÜNLER</a>
+                </li>
+                <li>
+                  <a href="./pages/communication.html">İLETİŞİM</a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -141,12 +165,13 @@
           </li>
           <li>
             <div class="product-foto">
-              <img src="./public/image/Gemini_Generated_Image_4pses94pses94pse (1).png" alt="">
+              <img
+                src="./public/image/Gemini_Generated_Image_4pses94pses94pse (1).png"
+                alt=""
+              />
             </div>
             <h1>Ürünler</h1>
-            <p>
-              Seramik izalatörlere buradan ulaşabilirsiniz.
-            </p>
+            <p>Seramik izalatörlere buradan ulaşabilirsiniz.</p>
             <a href="./pages/products.html">İzolatörler</a>
           </li>
         </ul>
@@ -198,6 +223,7 @@
     </div>
     <script src="./public/js/scrol.js"></script>
     <script src="./public/js/slide.js"></script>
+    <script src="./public/js/mobilTopbar.js"></script>
     <!-- <script type="module" src="/public/js/app.js"></script> -->
   </body>
 </html>

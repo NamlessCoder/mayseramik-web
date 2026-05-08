@@ -25,6 +25,7 @@ html,body{
     font-family: math;
 }
 .footer .footer-wrapper .footer-content li a{
+    font-size: 20px;
     color: white;
 }
 .footer .footer-wrapper .footer-content .footer-fastmenu li a::after{
@@ -46,6 +47,7 @@ html,body{
 }
 .footer .footer-wrapper .footer-content p{
     margin-bottom: 16px;
+    font-size: 20px;
     color: white;
     
 }
