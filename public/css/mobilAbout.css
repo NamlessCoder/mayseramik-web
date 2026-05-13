@@ -1,0 +1,13 @@
+@media only screen and (max-width: 768px) {
+  .b_about .topbar .wrapper .right .mobil-right .wrapper button i {
+    color: white;
+  }
+  .about .wrapper {
+    flex-direction: column-reverse;
+    padding: 20px;
+  }
+  .about .wrapper .logo {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}

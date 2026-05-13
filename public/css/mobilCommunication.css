@@ -1,0 +1,10 @@
+@media only screen and (max-width: 768px) {
+  .communication .wrapper .boxs {
+    flex-wrap: wrap;
+    padding: 180px 0px 100px 0px;
+  }
+  .communication .wrapper .boxs .box {
+    min-width: 250px;
+    margin-bottom: 20px;
+  }
+}
